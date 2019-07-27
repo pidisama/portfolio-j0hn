@@ -1,0 +1,16 @@
+.contact{
+	float: left;
+    margin: 12px 0px 0px -60px;
+    background-color: darkslategray;
+    padding: 8.5px 54px 8.5px 54px;
+    font-family: Trebuchet MS;
+    color: ghostwhite;
+}
+.contact h1{
+	text-align: center;
+}
+.contact-holder{
+    font-size: 15px;
+	line-height: 0.8;
+    padding: 0px 25px 0px 25px;
+}

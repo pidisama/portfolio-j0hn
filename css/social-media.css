@@ -1,0 +1,11 @@
+.social-media{
+	background-color: darkslategray;
+    float: left;
+    padding: 0px 102px 60px 102px;
+    margin: 12px 0px 0px -60px;
+    color: snow;
+}
+.social-media h2{
+	font-size: 18px;
+	margin: 60px 0px 0px 0px;
+}

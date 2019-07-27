@@ -1,0 +1,43 @@
+.fa-span{
+	flex-wrap: wrap;
+  width: 150px;
+  margin-left: 6vw;
+  margin-top: 102px;
+}
+#fas .fab {
+  padding: 10px;
+  width: 40px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin: 5px 2px;
+  color: whitesmoke;
+}
+#fas .fab:hover{
+	opacity: 0.7;
+}
+.fa-map-marker-alt{
+  width: 30px;
+}
+.fa-mobile-alt{
+  width: 30px;
+}
+.fa-envelope{
+  width: 30px;
+}
+.fa-facebook-f {
+  background: transparent;
+  border: 1px solid white;
+}
+.fa-twitter {
+  background: transparent;
+  border: 1px solid white;
+}
+.fa-instagram {
+  background: transparent;
+  border: 1px solid white;
+}
+.fa-globe{
+  font-size: 18px;
+  opacity: 0.6;
+}

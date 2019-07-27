@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+hr{
+  width: 96%;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+.hr{
+  width: 100%;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+.profile{
+  float: left;
+  width: 30%;
+}
+.about{
+  float: left;
+  width: 70%;
+  padding: 0px 0px 0px 30px;
+}
+.skills-container{
+  font-family: Trebuchet MS;
+  padding: 0 55px;
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	text-align: center; 
+	margin: 0;	
+}
+footer{
+	font-style: Verdana;
+	background-color: honeydew;
+	padding: 10px;
+	text-align: center;
+}
+#bg-john{
+	background-image: url("../images/john-bg.png");
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+  max-width: 2800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#bg-box{
+	background-image: url("../images/box-bg.png");
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+  padding: 20px 60px 0px 60px;
+  max-width: 1380px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.avatar img{
+  width: 120px;
+  height: 120px;
+  margin-left: 1vw;
+}
+.avatar{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0px 0px 0px;
+  padding: 0 10px;
+}
+.header-right{
+	display: inline-flex;
+	float: right;
+	margin-top: 10px;
+	margin-right: 50px;
+}
+.header-right a{
+	text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  float: right;
+  margin: 0px;
+  margin-top: auto;
+  font-weight: bold;
+  font-size: 170%;
+  color: white;
+}
+.header-right a:link{
+	color: rgba(174, 222, 236);
+}
+.header-right a:hover{
+  color: #d2eaf3;
+}
+.about-me{
+	text-align: justify;
+	border: 2px solid whitesmoke;
+	color: honeydew;
+  padding: 15px;
+  margin: 0px;
+  font-weight: 300;
+  background-image: url(../images/about-bg-blur.png);
+  height: 16.5rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.position-wd{
+	text-align: center;
+  margin-bottom: 0px;
+  padding-top: 5px;
+}
+.name-resume{
+	float: right;
+  margin-left: .6rem;
+}
+.name-resume img{
+	width: 90px;
+  height: 90px;
+}
+.name-resume a{
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+  font-size: 15px;
+  font-family: helvetica;
+}
+.button {
+  background-color: #cae7f2;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  font-family: helvetica;
+  padding: 6px 10px 6px 10px;
+  width: 200px;
+  transition: all 0.5s;
+  margin-top: -5px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: '\25C4';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 20px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*colors 
+#cae7f2 light
+#f6f6f6 gray
+#5abbd8 blue
+*/
