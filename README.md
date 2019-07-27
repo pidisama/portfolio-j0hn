@@ -1,2 +1,2 @@
-# potfolio-j0hn
+# portfolio-j0hn
 Flex
