@@ -10,6 +10,6 @@ $('a.foo').click(function(e) {
   
   setTimeout(function() {
   	alert('Still good.');
-  	window.location.href = '#freeze';
+  	window.location.href = 'freeze';
   },delay);
 });
