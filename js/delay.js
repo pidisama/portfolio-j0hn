@@ -1,16 +1,3 @@
-
-
-// $(document).ready(function() {
-//   $('#freeze').click(function(e) {
-//     e.preventDefault();
-//     var $a = $(this).addClass('clicked');
-//     setTimeout(function() {
-//       window.location.assign($a.attr('href'));
-//        // window.location.href = self.href;
-//     }, 300);
-//   });
-// });
-
 var delay;
 
 $('a.foo').click(function(e) {
@@ -23,6 +10,6 @@ $('a.foo').click(function(e) {
   
   setTimeout(function() {
   	alert('Still good.');
-  	window.location.href = 'Index.html#freeze';
+  	window.location.href = '#freeze';
   },delay);
 });
